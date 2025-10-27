@@ -1,0 +1,15 @@
+# Exclude Windows and security metadata files
+*.endpointdlp
+*:sec.endpointdlp
+*Zone.Identifier
+*.Zone.Identifier
+
+# Exclude other common metadata files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Exclude backup and temporary files
+*.bak
+*.tmp
+*~
